@@ -12,7 +12,6 @@
  * Domain Path: /languages
  * Requires at least: 5.0
  * Requires PHP: 7.4
- * Network: false
  *
  * @package Head_Footer_Injector
  * @author Fernando Binkowski de Andrade
@@ -63,7 +62,6 @@ if ( ! class_exists( 'Head_Footer_Injector_Plugin' ) ) {
          * Register hooks.
          */
         private function __construct() {
-            add_action( 'init', array( $this, 'load_textdomain' ) );
             add_action( 'admin_menu', array( $this, 'add_admin_menu' ) );
             add_action( 'admin_init', array( $this, 'register_settings' ) );
 
@@ -78,19 +76,6 @@ if ( ! class_exists( 'Head_Footer_Injector_Plugin' ) ) {
             add_action( 'template_redirect', array( $this, 'start_output_buffering' ), 1 );
             // Process footer at shutdown after everything is rendered
             add_action( 'shutdown', array( $this, 'process_footer_on_shutdown' ), 0 );
-        }
-
-        /**
-         * Load plugin translations.
-         *
-         * @since 1.0.0
-         */
-        public function load_textdomain() {
-            load_plugin_textdomain(
-                'head-footer-injector',
-                false,
-                dirname( plugin_basename( __FILE__ ) ) . '/languages/'
-            );
         }
 
         /**

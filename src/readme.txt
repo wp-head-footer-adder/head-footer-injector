@@ -3,12 +3,12 @@ Contributors: yourname
 Tags: meta-tag, header, footer, verification, tracking
 Requires at least: 5.0
 Requires PHP: 7.4
-Tested up to: 6.4
+Tested up to: 6.8
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Add custom meta tags to page headers and inject links into footer navigation effortlessly. Perfect for adding verification codes, tracking scripts, and custom footer links.
+Add custom meta tags and inject links into footer navigation easily.
 
 == Description ==
 
@@ -137,7 +137,8 @@ Initial release. No upgrades yet.
 
 For support, bug reports, and feature requests:
 * WordPress.org Plugin Forum: https://wordpress.org/support/plugin/head-footer-injector/
-* GitHub Issues: https://github.com/wp-head-footer-adder/head-footer-injector/issues
+* GitHub Issues: https://github.com/yourusername/head-footer-injector/issues
+* Email: support@yoursite.com
 
 == License ==
 
