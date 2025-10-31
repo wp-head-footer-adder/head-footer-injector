@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Head and Footer Injector 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yourusername/head-footer-injector/issues\n"
+"POT-Creation-Date: 2024-10-31 12:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: head-footer-injector.php:100
+msgid "Head and Footer Injector Settings"
+msgstr ""
+
+#: head-footer-injector.php:101
+msgid "Head & Footer Injector"
+msgstr ""
+
+#: head-footer-injector.php:170
+msgid "Header Meta Tag"
+msgstr ""
+
+#: head-footer-injector.php:178
+msgid "Footer Link Settings"
+msgstr ""
+
+#: head-footer-injector.php:189
+msgid "Header Meta Key"
+msgstr ""
+
+#: head-footer-injector.php:196
+msgid "Header Meta Value"
+msgstr ""
+
+#: head-footer-injector.php:203
+msgid "Footer Link URL"
+msgstr ""
+
+#: head-footer-injector.php:210
+msgid "Footer Link Text"
+msgstr ""
+
+#: head-footer-injector.php:223
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: head-footer-injector.php:234
+msgid "Add a custom meta tag to the page header (wp_head). Useful for verification codes and tracking scripts."
+msgstr ""
+
+#: head-footer-injector.php:245
+msgid "The name attribute of the meta tag."
+msgstr ""
+
+#: head-footer-injector.php:257
+msgid "The content attribute of the meta tag."
+msgstr ""
+
+#: head-footer-injector.php:269
+msgid "Configure the link that will be added to the footer navigation menu."
+msgstr ""
+
+#: head-footer-injector.php:280
+msgid "The URL the footer link will point to."
+msgstr ""
+
+#: head-footer-injector.php:292
+msgid "The text displayed for the footer link."
+msgstr ""
+
+#: head-footer-injector.php:356
+msgctxt "default footer link text"
+msgid "Link"
+msgstr ""
