@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Head and Footer Injector
- * Plugin URI: https://github.com/yourusername/head-footer-injector
+ * Plugin URI: https://github.com/wp-head-footer-adder/head-footer-injector
  * Description: Add custom meta tags to the page header and injected links to the footer navigation. Perfect for adding tracking codes, verification meta tags, and custom footer links.
  * Version: 1.0.0
- * Author: Your Name
- * Author URI: https://yoursite.com
+ * Author: Fernando Binkowski de Andrade
+ * Author URI: https://github.com/fekow
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: head-footer-injector
@@ -15,7 +15,7 @@
  * Network: false
  *
  * @package Head_Footer_Injector
- * @author Your Name
+ * @author Fernando Binkowski de Andrade
  * @license GPL2+
  */
 
