@@ -137,8 +137,7 @@ Initial release. No upgrades yet.
 
 For support, bug reports, and feature requests:
 * WordPress.org Plugin Forum: https://wordpress.org/support/plugin/head-footer-injector/
-* GitHub Issues: https://github.com/yourusername/head-footer-injector/issues
-* Email: support@yoursite.com
+* GitHub Issues: https://github.com/wp-head-footer-adder/head-footer-injector/issues
 
 == License ==
 
